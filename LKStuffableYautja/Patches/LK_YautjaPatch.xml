@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!--Stuffable armor and helmet patches-->
+<!--Yautja mod Helmets-->
+    <Operation Class="PatchOperationSequence">
+	  <operations>
+    <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="ABYautja_BioMaskBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+		</li>
+	<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="ABYautja_NobleHelmetMakeable_Base"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+		</li>
+	<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="ABYautja_HelmetMakeable_Base"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+		</li>	
+	<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="ABYautja_ArmorMakeable_Base"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+		</li>	
+		</operations>
+		</Operation>
+
+	<Operation Class="PatchOperationSequence">
+	  <operations>	
+	<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="ABYautja_Utility_Base"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+		</li>	
+	<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="ABYautja_Armor_Boots"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+		</li>		
+	<li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="ABYautja_ApparelMakeable_Base"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+		</li>
+		</operations>
+	</Operation>
+	
+
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+	  <li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="ABYautja_BioMaskBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+		</li>
+       <li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="ABYautja_NobleHelmetMakeable_Base"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+		</li>
+		<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="ABYautja_HelmetMakeable_Base"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+		</li>
+		<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="ABYautja_ArmorMakeable_Base"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+		</li>
+		</operations>
+		</Operation>
+		<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="ABYautja_Utility_Base"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+		</li>
+		<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ABYautja_Armor_Boots"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+		</li>
+		</operations>
+	</Operation>
+
+
+	
+	<!--example patch to use for multiple mods -->
+
+	<!--<Operation Class="PatchOperationSequence">
+	  <operations>
+	  <li Class="PatchOperationAdd" MayRequire="Grimworld.AspectusImperialis">
+        <xpath>Defs/ThingDef[defName="GW40k_2x1Gate"]</xpath>
+		<value>
+		<building>
+				<isAirtight>true</isAirtight>
+		</building>
+		</value>
+		</li>
+		<li Class="PatchOperationAdd" MayRequire="Grimworld.AspectusImperialis">
+        <xpath>Defs/ThingDef[defName="GW40k_3x1Gate"]</xpath>
+		<value>
+		<building>
+				<isAirtight>true</isAirtight>
+		</building>
+		</value>
+		</li>
+		</operations>
+	</Operation>-->
+</Patch>
